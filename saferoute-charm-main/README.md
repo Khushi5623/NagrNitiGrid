@@ -1,73 +1,197 @@
-# Welcome to your Lovable project
+ NagarNiti Grid – Smart Civic Issue Reporting Platform
 
-## Project info
+ Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+*NagarNiti Grid* is an AI-powered civic issue reporting platform that connects citizens with government authorities through intelligent, real-time solutions.
 
-## How can I edit this code?
+It enables users to report issues, track progress, and ensures transparency in governance — building smarter and more accountable cities.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+🧠 Problem Statement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* Manual complaint systems are slow and inefficient
+* Lack of transparency in issue resolution
+* Poor communication between citizens and authorities
+* Delayed response and accountability issues
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+💡 Solution
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+NagarNiti Grid provides a **digital, real-time platform** that:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Allows citizens to report issues with images & location
+* Tracks issue lifecycle from submission to resolution
+* Uses AI to prioritize issues based on urgency
+* Ensures transparency with live updates
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+ ✨ Key Features
+🔹 AI-Powered Issue Prioritization
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Automatically ranks issues based on severity, urgency, and location impact.
 
-# Step 3: Install the necessary dependencies.
-npm i
+ 🔹 Geo-Tagged Reporting
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+Submit complaints with exact location using map-based input.
+
+ 🔹 Transparent Governance
+
+Track every issue lifecycle with full visibility.
+
+ 🔹 Live Resolution Tracking
+
+Real-time updates from submission to completion.
+
+ 🔹 Citizen Engagement System
+
+Voting, feedback, and collaborative resolution.
+🔹 Analytics Dashboard
+
+Data-driven insights for authorities and decision-making.
+
+---
+
+## ⚙️ Technical Stack
+
+### 🖥️ Frontend
+
+* React.js
+* TypeScript
+* Vite
+* Tailwind CSS
+* ShadCN UI
+
+### ⚙️ Backend
+
+* Node.js
+* Express.js
+
+### 🗄️ Database
+
+* Supabase (PostgreSQL)
+
+### 🔐 Authentication
+
+* Supabase Auth
+
+### 🔔 Additional Integrations
+
+* Notifications system
+* API integrations (e.g., Maps, SMS)
+
+---
+
+## 🔄 How It Works
+
+1️⃣ **Report**
+Submit an issue with images, location, and description
+
+2️⃣ **Track**
+Monitor real-time updates and progress
+
+3️⃣ **Resolve**
+Authorities take action and close issues transparently
+
+---
+
+## 🚀 Impact & Benefits
+
+### 👥 Social Impact
+
+* Increased citizen engagement
+* Better public accountability
+* Improved quality of life
+
+### 💰 Economic Impact
+
+* Faster issue resolution
+* Efficient resource allocation
+
+### 🌱 Environmental Impact
+
+* Quick reporting of sanitation & water issues
+* Cleaner and safer surroundings
+
+---
+
+## 📁 Project Structure
+
+```
+saferoute-charm-main/
+├── backend/
+│   ├── package.json
+│   └── server.js
+└── saferoute-charm-main/
+    ├── src/
+    ├── public/
+    ├── supabase/
+    ├── package.json
+    └── ...
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Installation & Setup
 
-**Use GitHub Codespaces**
+### 1️⃣ Clone the repository
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git clone https://github.com/your-username/NagrNitiGrid.git
+cd NagrNitiGrid
+```
 
-## What technologies are used for this project?
+### 2️⃣ Install dependencies
 
-This project is built with:
+```bash
+npm install
+cd backend
+npm install
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 3️⃣ Setup environment variables
 
-## How can I deploy this project?
+Create `.env` file in backend:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+```
+PORT=5000
+SUPABASE_URL=your_url
+SUPABASE_KEY=your_key
+```
 
-## Can I connect a custom domain to my Lovable project?
+### 4️⃣ Run the project
 
-Yes, you can!
+```bash
+# frontend
+npm run dev
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# backend
+cd backend
+node server.js
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 🌐 Future Enhancements
+
+* AI-based duplicate issue detection
+* Mobile application
+* Government API integrations
+* Advanced analytics dashboard
+
+---
+
+## 👩‍💻 Author
+
+**Khushi** ✨
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
